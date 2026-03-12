@@ -1,9 +1,11 @@
 ## Test Architecture (Playwright + Page Object Model)
 
-Tests interact with the application through Page Objects.
-Each test file uses a dedicated Page Object which communicates with the Playwright page instance.
+Tests interact with the application through Page Objects.  
+Each test file uses a dedicated Page Object which communicates with the Playwright `page` instance.
 
-# Test flow:
+## Test flow
+
+```mermaid
 flowchart LR
 
     subgraph Test_Files
@@ -25,3 +27,4 @@ flowchart LR
     T1 --> P1 --> B1
     T2 --> P2 --> B1
     T3 --> P3 --> B1
+```
