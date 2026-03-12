@@ -3,7 +3,7 @@ import { BasePage } from './BasePage';
 import { DataTable } from '../components/DataTable';
 import { Modal } from '../components/Modal';
 
-export class UserPage extends BasePage {
+export class UsersPage extends BasePage {
     readonly addUserButton: Locator;
     readonly searchInput: Locator;
     readonly userTable: DataTable;
